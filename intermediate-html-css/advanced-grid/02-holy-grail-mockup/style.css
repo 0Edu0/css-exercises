@@ -89,3 +89,23 @@
   font-size: 13px;
   font-weight: normal;
 }
+
+/* Solution */
+.header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.header > .logo {
+  justify-self: start;
+}
+
+.header > .menu > ul > li {
+  list-style-type: none;
+
+}
+
+.header > .menu > ul {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
